@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background: rgb(24, 23, 23);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 0 30px;
+}
+.logo p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    margin:0 30px;
+}
+button{
+    background: white;
+    padding: 8px 24px;
+    border: none;
+    margin:0 10px;
+    transition: all .5s ease-in-out;
+    outline: none;
+
+}
+.btn2{
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+.btn2:hover{
+    background: white;
+    border: none;
+    color: black;
+    outline: none;
+}
+button:hover{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.main_header{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background: url('/assets/images/1unsplash.jpg') center no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.header_text{
+    color: white;
+    z-index: 100000;
+    font-size: 50px;
+    font-family: codec;
+    text-align: center;
+}
+.header_text>div{
+    font-size: 50px;
+    font-family: codec;
+}
+.header_text span{
+    font-family: montserrat;
+}
